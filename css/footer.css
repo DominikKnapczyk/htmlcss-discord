@@ -1,16 +1,32 @@
+/* FOOTER */
 
-/*SIXTH SECTION*/
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 
-/* .sixth-section {
+  background-color: #23272A;
+  height: 800px;
+  width: 100%;
+  margin-top: 1px;
+
+  color: white;
+}
+
+/* UPPER FOOTER */
+
+.upper-footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 
   height: 500px;
-  background-color: black;
+  width: 90%;
 }
 
-.sixth-section-container {
+.upper-footer-container {
   display: flex;
   align-items: center;
 
@@ -18,59 +34,74 @@
   width: 75%;
 }
 
-.sixth-section-container-left {
+.upper-footer-container-left {
   height: 100%;
   width: calc((100%/3));
 
-  background-color: #F08080;
-  border: 1px dashed black;
+  background-color: #23272A;
 }
 
-.sixth-section-container-right-one,
-.sixth-section-container-right-two,
-.sixth-section-container-right-three,
-.sixth-section-container-right-four {
+.footer-title {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #7289DA;
+  margin-bottom: 20px;
+}
+
+.upper-footer-container-left > img {
+  width: 20px;
+}
+
+.upper-footer-container-right{
   height: 100%;
   width: calc((2*(100%/3))/4);
-
-  background-color: #20B2AA;
-  border: 1px dashed white;
 }
 
+ .upper-footer-container-right > .footer-title {
+  font-size: 12px;
 
-
-footer {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-
-  background-color: black;
-  height: 80px;
-  margin-top: 1px;
+  margin-bottom: 10px;
 }
 
-.footer-container{
+.footer-link {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+/* BOTTOM FOOTER */
+
+.bottom-footer-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   width: 75%;
   height: 50px;
-  background-color: #7FFFD4;
+
+  border-top: 1px solid #7289DA;
+  padding-top: 50px;
 }
 
-.footer-left-section,
-.footer-right-section {
+.bottom-footer-left-section,
+.bottom-footer-right-section {
   display: flex;
-
-  border: 1px dashed black;
-  background-color: #FFBBC6;
 }
 
-.footer-right-section {
+.bottom-footer-right-section {
   justify-content: right;
 }
 
-.footer-left-section {
+.bottom-footer-left-section {
   justify-content: left;
-} */
+} 
+
+.register-button {
+  background-color: #707fb267;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+}

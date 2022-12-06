@@ -1,21 +1,3 @@
-/* WAVY PATTERN */
-
-.wavy-pattern {
-  background-color: white;
-  width: 100%;
-}
-.wavy-pattern > img {
-  display: block;
-}
-
-.wavy-pattern1 {
-  background-color: #F6F6F6;
-  width: 100%;
-}
-.wavy-pattern1 > img {
-  display: block;
-}
-
 /*MAIN*/
 
 main {
@@ -26,7 +8,7 @@ main {
 
 }
 
-/*SECTION GENERAL*/
+/*SECTIONS*/
 
 .section {
   display: flex;
@@ -107,7 +89,7 @@ main {
   text-align: center;
 }
 
-.section-container-title-small {
+.fourth-section h3 {
   font-size: 28px;
   font-weight: bolder;
 
@@ -120,4 +102,21 @@ main {
   color: white;
 }
 
+/* WAVY PATTERN */
+
+.wavy-pattern {
+  background-color: white;
+  width: 100%;
+}
+.wavy-pattern > img {
+  display: block;
+}
+
+.wavy-pattern1 {
+  background-color: #F6F6F6;
+  width: 100%;
+}
+.wavy-pattern1 > img {
+  display: block;
+}
 
